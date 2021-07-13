@@ -214,16 +214,17 @@ img {
 .about__button {
     margin-top: 20px;
     font-family: var(--button-font);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button1, .button2 {
     margin-left: auto;
     margin-right: auto;
 }
 
-.button1 {
-    margin-bottom: 20px;
-}
-
 .btn-1, .btn-2 {
-    width: 250px;
     height: 50px;
     border: none;
     color: var(--white-color);
@@ -233,6 +234,11 @@ img {
     transition: ease-out 0.3s;
     outline: none;
     font-size: 15px;
+}
+
+.btn-1:hover, .btn-2:active {
+    box-shadow: inset 250px 0 0 0 #fff;
+    color: var(--dark-color);
 }
 
 .footer {
@@ -260,6 +266,55 @@ img {
 
 .footer__social-ico3 {
     font-size: 28px;
+}
+
+.client {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.client-h3 {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.card-client {
+    background-color: var(--white-color);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-background {
+    background-color: var(--dark-color-alt);
+    height: 85px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-image {
+    border-radius: 50%;
+    width: 70px;
+    height: auto;
+    position: relative;
+    top: 50px;
+}
+
+.card-info {
+    padding: 35px;
+    font-size: 12px;
+}
+
+.card-info p {
+    overflow: auto;
+    height: 85px;
 }
 
 @media screen and (min-width: 768px) {

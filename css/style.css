@@ -313,7 +313,7 @@ img {
     font-size: 12px;
 }
 
-.card-info a {
+.card-info a:link {
     color: #000;
 }
 

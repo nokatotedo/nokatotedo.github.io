@@ -313,6 +313,10 @@ img {
     font-size: 12px;
 }
 
+.card-info a {
+    color: #000;
+}
+
 .card-info a:visited {
     color: #000;
 }
